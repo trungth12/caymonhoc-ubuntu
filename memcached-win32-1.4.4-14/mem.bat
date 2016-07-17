@@ -1,1 +1,0 @@
-"E:\CayMonHoc\memcached-win32-1.4.4-14\memcached.exe"
