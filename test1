@@ -1,0 +1,19 @@
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: failed (Result: exit-code) since Sat 2016-07-16 14:12:05 ICT; 14s ago
+  Process: 1419 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid (code=exited, status=1/FAILURE)
+  Process: 13334 ExecReload=/usr/sbin/nginx -g daemon on; master_process on; -s reload (code=exited, status=0/SUCCESS)
+  Process: 4455 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=1/FAILURE)
+  Process: 4452 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+ Main PID: 1352 (code=exited, status=0/SUCCESS)
+
+Jul 16 14:12:03 ubuntu-207 nginx[4455]: nginx: [emerg] bind() to 0.0.0.0:8181 failed (98: Address already in use)
+Jul 16 14:12:03 ubuntu-207 nginx[4455]: nginx: [emerg] bind() to 0.0.0.0:8181 failed (98: Address already in use)
+Jul 16 14:12:04 ubuntu-207 nginx[4455]: nginx: [emerg] bind() to 0.0.0.0:8181 failed (98: Address already in use)
+Jul 16 14:12:04 ubuntu-207 nginx[4455]: nginx: [emerg] bind() to 0.0.0.0:8181 failed (98: Address already in use)
+Jul 16 14:12:05 ubuntu-207 nginx[4455]: nginx: [emerg] bind() to 0.0.0.0:8181 failed (98: Address already in use)
+Jul 16 14:12:05 ubuntu-207 nginx[4455]: nginx: [emerg] still could not bind()
+Jul 16 14:12:05 ubuntu-207 systemd[1]: nginx.service: Control process exited, code=exited status=1
+Jul 16 14:12:05 ubuntu-207 systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Jul 16 14:12:05 ubuntu-207 systemd[1]: nginx.service: Unit entered failed state.
+Jul 16 14:12:05 ubuntu-207 systemd[1]: nginx.service: Failed with result 'exit-code'.

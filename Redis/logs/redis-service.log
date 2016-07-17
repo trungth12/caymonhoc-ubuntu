@@ -1,0 +1,110 @@
+[1448] 09 Nov 12:51:57 * Starting redis (host=127.0.0.1 port=6379)
+[1448] 09 Nov 12:51:57 - Starting Redis with command line: redis conf/redis.conf
+[1448] 09 Nov 12:51:57 * Started redis (host=127.0.0.1 port=6379 PID=2020)
+[1448] 10 Nov 11:39:13 * Stopping redis (PID=2020)
+[2112] 10 Nov 11:44:00 * Starting redis (host=127.0.0.1 port=6379)
+[2112] 10 Nov 11:44:00 - Starting Redis with command line: redis conf/redis.conf
+[2112] 10 Nov 11:44:00 * Started redis (host=127.0.0.1 port=6379 PID=2148)
+[2112] 11 Nov 05:00:30 * Stopping redis (PID=2148)
+[2116] 11 Nov 07:33:13 * Starting redis (host=127.0.0.1 port=6379)
+[2116] 11 Nov 07:33:13 - Starting Redis with command line: redis conf/redis.conf
+[2116] 11 Nov 07:33:13 * Started redis (host=127.0.0.1 port=6379 PID=2152)
+[2116] 12 Nov 05:00:31 * Stopping redis (PID=2152)
+[2100] 12 Nov 05:04:57 * Starting redis (host=127.0.0.1 port=6379)
+[2100] 12 Nov 05:04:57 - Starting Redis with command line: redis conf/redis.conf
+[2100] 12 Nov 05:04:57 * Started redis (host=127.0.0.1 port=6379 PID=2140)
+[2100] 12 Nov 11:39:22 * Stopping redis (PID=2140)
+[528] 12 Nov 11:43:45 * Starting redis (host=127.0.0.1 port=6379)
+[528] 12 Nov 11:43:45 - Starting Redis with command line: redis conf/redis.conf
+[528] 12 Nov 11:43:45 * Started redis (host=127.0.0.1 port=6379 PID=964)
+[528] 13 Nov 05:00:30 * Stopping redis (PID=964)
+[528] 13 Nov 05:04:54 * Starting redis (host=127.0.0.1 port=6379)
+[528] 13 Nov 05:04:54 - Starting Redis with command line: redis conf/redis.conf
+[528] 13 Nov 05:04:54 * Started redis (host=127.0.0.1 port=6379 PID=944)
+[528] 14 Nov 05:00:44 * Stopping redis (PID=944)
+[792] 14 Nov 05:05:46 * Starting redis (host=127.0.0.1 port=6379)
+[792] 14 Nov 05:05:46 - Starting Redis with command line: redis conf/redis.conf
+[792] 14 Nov 05:05:46 * Started redis (host=127.0.0.1 port=6379 PID=1164)
+[792] 15 Nov 05:00:30 * Stopping redis (PID=1164)
+[528] 15 Nov 05:05:10 * Starting redis (host=127.0.0.1 port=6379)
+[528] 15 Nov 05:05:10 - Starting Redis with command line: redis conf/redis.conf
+[528] 15 Nov 05:05:10 * Started redis (host=127.0.0.1 port=6379 PID=940)
+[476] 15 Nov 20:16:01 * Starting redis (host=127.0.0.1 port=6379)
+[476] 15 Nov 20:16:02 - Starting Redis with command line: redis conf/redis.conf
+[476] 15 Nov 20:16:02 * Started redis (host=127.0.0.1 port=6379 PID=1144)
+[536] 16 Nov 00:20:01 * Starting redis (host=127.0.0.1 port=6379)
+[536] 16 Nov 00:20:01 - Starting Redis with command line: redis conf/redis.conf
+[536] 16 Nov 00:20:02 * Started redis (host=127.0.0.1 port=6379 PID=1288)
+[524] 16 Nov 00:34:57 * Starting redis (host=127.0.0.1 port=6379)
+[524] 16 Nov 00:34:57 - Starting Redis with command line: redis conf/redis.conf
+[524] 16 Nov 00:34:57 * Started redis (host=127.0.0.1 port=6379 PID=1332)
+[788] 16 Nov 00:43:15 * Starting redis (host=127.0.0.1 port=6379)
+[788] 16 Nov 00:43:15 - Starting Redis with command line: redis conf/redis.conf
+[788] 16 Nov 00:43:15 * Started redis (host=127.0.0.1 port=6379 PID=1312)
+[796] 16 Nov 07:41:00 * Starting redis (host=127.0.0.1 port=6379)
+[796] 16 Nov 07:41:00 - Starting Redis with command line: redis conf/redis.conf
+[796] 16 Nov 07:41:00 * Started redis (host=127.0.0.1 port=6379 PID=1392)
+[796] 17 Nov 05:00:31 * Stopping redis (PID=1392)
+[524] 17 Nov 05:04:56 * Starting redis (host=127.0.0.1 port=6379)
+[524] 17 Nov 05:04:56 - Starting Redis with command line: redis conf/redis.conf
+[524] 17 Nov 05:04:56 * Started redis (host=127.0.0.1 port=6379 PID=684)
+[524] 17 Nov 11:37:05 * Stopping redis (PID=684)
+[536] 17 Nov 11:41:27 * Starting redis (host=127.0.0.1 port=6379)
+[536] 17 Nov 11:41:27 - Starting Redis with command line: redis conf/redis.conf
+[536] 17 Nov 11:41:28 * Started redis (host=127.0.0.1 port=6379 PID=1336)
+[536] 18 Nov 05:00:30 * Stopping redis (PID=1336)
+[408] 18 Nov 05:04:55 * Starting redis (host=127.0.0.1 port=6379)
+[408] 18 Nov 05:04:55 - Starting Redis with command line: redis conf/redis.conf
+[408] 18 Nov 05:04:56 * Started redis (host=127.0.0.1 port=6379 PID=844)
+[408] 19 Nov 05:00:31 * Stopping redis (PID=844)
+[492] 19 Nov 05:04:57 * Starting redis (host=127.0.0.1 port=6379)
+[492] 19 Nov 05:04:57 - Starting Redis with command line: redis conf/redis.conf
+[492] 19 Nov 05:04:57 * Started redis (host=127.0.0.1 port=6379 PID=940)
+[492] 20 Nov 05:00:30 * Stopping redis (PID=940)
+[660] 20 Nov 05:04:48 * Starting redis (host=127.0.0.1 port=6379)
+[660] 20 Nov 05:04:48 - Starting Redis with command line: redis conf/redis.conf
+[660] 20 Nov 05:04:48 * Started redis (host=127.0.0.1 port=6379 PID=1136)
+[660] 21 Nov 05:00:30 * Stopping redis (PID=1136)
+[660] 21 Nov 05:04:48 * Starting redis (host=127.0.0.1 port=6379)
+[660] 21 Nov 05:04:48 - Starting Redis with command line: redis conf/redis.conf
+[660] 21 Nov 05:04:49 * Started redis (host=127.0.0.1 port=6379 PID=1044)
+[660] 22 Nov 05:00:30 * Stopping redis (PID=1044)
+[660] 22 Nov 05:04:49 * Starting redis (host=127.0.0.1 port=6379)
+[660] 22 Nov 05:04:49 - Starting Redis with command line: redis conf/redis.conf
+[660] 22 Nov 05:04:49 * Started redis (host=127.0.0.1 port=6379 PID=776)
+[660] 23 Nov 05:00:30 * Stopping redis (PID=776)
+[528] 23 Nov 05:04:48 * Starting redis (host=127.0.0.1 port=6379)
+[528] 23 Nov 05:04:48 - Starting Redis with command line: redis conf/redis.conf
+[528] 23 Nov 05:04:48 * Started redis (host=127.0.0.1 port=6379 PID=1344)
+[528] 24 Nov 05:00:30 * Stopping redis (PID=1344)
+[660] 24 Nov 05:04:43 * Starting redis (host=127.0.0.1 port=6379)
+[660] 24 Nov 05:04:43 - Starting Redis with command line: redis conf/redis.conf
+[660] 24 Nov 05:04:43 * Started redis (host=127.0.0.1 port=6379 PID=848)
+[660] 25 Nov 05:00:30 * Stopping redis (PID=848)
+[472] 25 Nov 05:04:49 * Starting redis (host=127.0.0.1 port=6379)
+[472] 25 Nov 05:04:49 - Starting Redis with command line: redis conf/redis.conf
+[472] 25 Nov 05:04:50 * Started redis (host=127.0.0.1 port=6379 PID=2052)
+[472] 26 Nov 05:00:30 * Stopping redis (PID=2052)
+[472] 26 Nov 05:04:48 * Starting redis (host=127.0.0.1 port=6379)
+[472] 26 Nov 05:04:48 - Starting Redis with command line: redis conf/redis.conf
+[472] 26 Nov 05:04:48 * Started redis (host=127.0.0.1 port=6379 PID=800)
+[472] 27 Nov 05:00:30 * Stopping redis (PID=800)
+[660] 27 Nov 05:04:47 * Starting redis (host=127.0.0.1 port=6379)
+[660] 27 Nov 05:04:47 - Starting Redis with command line: redis conf/redis.conf
+[660] 27 Nov 05:04:47 * Started redis (host=127.0.0.1 port=6379 PID=1168)
+[660] 28 Nov 05:00:30 * Stopping redis (PID=1168)
+[408] 28 Nov 05:04:48 * Starting redis (host=127.0.0.1 port=6379)
+[408] 28 Nov 05:04:49 - Starting Redis with command line: redis conf/redis.conf
+[408] 28 Nov 05:04:49 * Started redis (host=127.0.0.1 port=6379 PID=1388)
+[408] 29 Nov 05:00:30 * Stopping redis (PID=1388)
+[536] 29 Nov 05:04:47 * Starting redis (host=127.0.0.1 port=6379)
+[536] 29 Nov 05:04:47 - Starting Redis with command line: redis conf/redis.conf
+[536] 29 Nov 05:04:48 * Started redis (host=127.0.0.1 port=6379 PID=940)
+[536] 30 Nov 05:00:30 * Stopping redis (PID=940)
+[464] 30 Nov 05:04:48 * Starting redis (host=127.0.0.1 port=6379)
+[464] 30 Nov 05:04:48 - Starting Redis with command line: redis conf/redis.conf
+[464] 30 Nov 05:04:48 * Started redis (host=127.0.0.1 port=6379 PID=1388)
+[464] 01 Dec 05:00:32 * Stopping redis (PID=1388)
+[472] 01 Dec 05:04:46 * Starting redis (host=127.0.0.1 port=6379)
+[472] 01 Dec 05:04:46 - Starting Redis with command line: redis conf/redis.conf
+[472] 01 Dec 05:04:46 * Started redis (host=127.0.0.1 port=6379 PID=796)
