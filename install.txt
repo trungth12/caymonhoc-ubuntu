@@ -1,0 +1,6 @@
+1. Install Memcached 
+2. Install Node.js
+3. Install Redis
+4. Bundle install
+5. Set priority to webservice HPU
+6. Run
