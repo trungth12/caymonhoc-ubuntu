@@ -3,4 +3,10 @@
 3. Install Redis
 4. Bundle install
 5. Set priority to webservice HPU
-6. Run
+6. Run node app.js
+7. Run memcached
+8. RACK_ENV=production puma config.ru -b tcp://0.0.0.0:3000 -t 4:32
+
+- Set port for puma and check it in app.js
+- node listen at 8181 and forward to port 3000 (puma)
+- Set nginx proxy_pass to 8181 with all conten in public/ 
