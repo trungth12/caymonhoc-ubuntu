@@ -1,0 +1,7 @@
+#!/bin/bash
+source ~/.rvm/scripts/rvm
+
+cd /home/tuyendv/Caymonhoc
+
+RACK_ENV=production bundle exec puma config.ru -b tcp://0.0.0.0:3001 -t 4:32 
+##& echo $(lsof -ti:3010) >>/home/tuyendv/Auto_start/pid/start_rails_caymonhoc.pid

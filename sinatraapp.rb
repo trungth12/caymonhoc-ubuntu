@@ -433,7 +433,8 @@ get '/check/:id' do |id|
 		
 	else return '{"error":"khongtontai"}' end
 end
-get '/:ip/:id' do |ip,id|	
+get '/:ip/:id' do |ip,id|
+#puts params[:id]
 	nodes = []
 links = []
 tags = {}

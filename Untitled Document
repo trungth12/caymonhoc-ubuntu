@@ -1,0 +1,72 @@
+Bundler could not find compatible versions for gem "railties":
+  In Gemfile:
+    rails (= 3.2.13) was resolved to 3.2.13, which depends on
+      railties (= 3.2.13)
+
+    rails (= 3.2.13) was resolved to 3.2.13, which depends on
+      railties (= 3.2.13) x86-mingw32
+
+    sass-rails (~> 5.0.2) was resolved to 5.0.2, which depends on
+      railties (< 5.0, >= 4.0.0)
+
+    sass-rails (~> 5.0.2) was resolved to 5.0.2, which dep
+
+[!] There was an error parsing `Gemfile`: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '(' -   gem 'coffee-rails'
+       ^. Bundler cannot continue.
+
+ #  from /home/tuyendv/thamdo/Gemfile:17
+ #  -------------------------------------------
+ #    gem 'sass-rails',  
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies............
+Your bundle requires gems that depend on each other, creating an infinite loop.
+Please remove gem 'meta_search' and try again.
+
+
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies............
+Your bundle requires gems that depend on each other, creating an infinite loop.
+Please remove gem 'meta_search' and try again.
+tuyendv@ubuntu-207:~/thamdo$ 
+
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies..............
+Your bundle requires gems that depend on each other, creating an infinite loop.
+Please remove gem 'meta_search' and try again.
+
+
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies.............
+Your bundle requires gems that depend on each other, creating an infinite loop.
+Please remove gem 'meta_search' and try again.
+
+
+ng dependency metadata from https://rubygems.org/
+Resolving dependencies..............
+Your bundle requires gems that depend on each other, creating an infinite loop.
+Please remove gem 'meta_search' and try again.
+
+
+
+Fetching gem metadata from https://rubygems.org/
+Fetching version metadata from https://rubygems.org/
+Fetching dependency metadata from https://rubygems.org/
+Resolving dependencies.......................................................
+Your bundle requires gems that depend on each other, creating an infinite loop.
+Please remove 
+
+
+Installing redis-store 1.1.7
+Installing redis-namespace 1.5.2
+Installing activesupport 4.2.7
+An error occurred while installing nokogiri (1.6.8), and Bundler cannot
+continue.
+Make sure that `ge

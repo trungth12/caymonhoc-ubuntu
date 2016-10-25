@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /home/tuyendv/Caymonhoc
+
+memcached 
+# & echo $(lsof -ti:11211) >>/home/tuyendv/Auto_start/pid/start_memcache_caymonhoc.pid

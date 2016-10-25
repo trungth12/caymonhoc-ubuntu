@@ -1,4 +1,4 @@
-﻿require 'resque'
+require 'resque'
 require 'sinatra'
 require 'tire'
 require 'yajl/json_gem'
@@ -40,7 +40,7 @@ get '/checkltn/:ip/:id' do |ip, id|
 	val = dc.get(cachedkey);
 	return val unless val == nil
 	Resque.enqueue(Archive, ip, Time.now.to_s, msv, 'checkltn')
-	client = Savon.client(wsdl: "http://10.1.0.238:8082/HPUWebService.asmx?wsdl")
+	client = Savon.client(wsdl: "http://10.1.0.236:8088/HPUWebService.asmx?wsdl")
 	response = client.call(:ctdt_dang_ky_ltn) do		
 		message(ma_sinh_vien: msv)
 	end
@@ -198,7 +198,7 @@ get '/checkltn/:ip/:id' do |ip, id|
 
 end
 get '/methods/?' do
-	client = Savon.client(wsdl: "http://10.1.0.238:8082/HPUWebService.asmx?wsdl")
+	client = Savon.client(wsdl: "http://10.1.0.236:8088/HPUWebService.asmx?wsdl")
 	return client.operations.to_json
 end
 get '/checktn/:ip/:id' do |ip,id|
@@ -207,7 +207,7 @@ get '/checktn/:ip/:id' do |ip,id|
 	val = dc.get(cachedkey);
 	return val unless val == nil
 	Resque.enqueue(Archive, ip, Time.now.to_s, msv, 'checktn')
-	client = Savon.client(wsdl: "http://10.1.0.238:8082/HPUWebService.asmx?wsdl")
+	client = Savon.client(wsdl: "http://10.1.0.236:8088/HPUWebService.asmx?wsdl")
 	response = client.call(:ctdt_dang_ky_tttn) do		
 		message(ma_sinh_vien: msv)
 	end
@@ -397,7 +397,7 @@ get '/check/:id' do |id|
 	cachedkey = 'check:'+msv
 	val = dc.get(cachedkey)
 	return val unless val == nil
-	client = Savon.client(wsdl: "http://10.1.0.238:8082/HPUWebService.asmx?wsdl")
+	client = Savon.client(wsdl: "http://10.1.0.236:8088/HPUWebService.asmx?wsdl")
 	puts client.inspect
 	response = client.call(:thong_tin_sinh_vien) do		
 		message(masinhvien: msv)
@@ -456,7 +456,7 @@ mas = 1
 	return val unless val == nil
 	Resque.enqueue(Archive, ip, Time.now.to_s, msv, 'check')
 	i = 0;
-	client = Savon.client(wsdl: "http://10.1.0.238:8082/HPUWebService.asmx?wsdl");
+	client = Savon.client(wsdl: "http://10.1.0.236:8088/HPUWebService.asmx?wsdl");
 	response = client.call(:mon_sinh_vien_da_qua) do
 		message(masinhvien: msv)
 	end;

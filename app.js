@@ -27,7 +27,7 @@ app.get("/get/:id", function(req, res){
 console.log('request: ' + id);
 client.get(id, function(err, rid){
 	if (!rid) {
-     rest.get('http://localhost:3000/' + ip + '/'+ id).on('complete', function(data) {    
+     rest.get('http://localhost:3001/' + ip + '/'+ id).on('complete', function(data) {    
         if (data.error) {
 		      client.set(id, JSON.stringify(data));
 				client.expire(id, day);
@@ -54,7 +54,7 @@ app.get("/checkltn/:id", function(req, res){
   console.log('checkltn: ' + id);
   client.get(ckey, function(err, cid){
     if (!cid) {
-    rest.get('http://localhost:3000/checkltn/' + ip + '/'+ id).on('complete', function(data) {
+    rest.get('http://localhost:3001/checkltn/' + ip + '/'+ id).on('complete', function(data) {
         if (data.error) {     
       client.set(ckey, JSON.stringify(data));
       client.expire(ckey, day);      
@@ -80,7 +80,7 @@ app.get("/checktn/:id", function(req, res){
   console.log('checktn: ' + id);
   client.get(ckey, function(err, cid){
     if (!cid) {
-    rest.get('http://localhost:3000/checktn/' + ip + '/'+ id).on('complete', function(data) {
+    rest.get('http://localhost:3001/checktn/' + ip + '/'+ id).on('complete', function(data) {
         if (data.error) {     
       client.set(ckey, JSON.stringify(data));
       client.expire(ckey, day);      
@@ -105,7 +105,7 @@ app.get("/check/:id", function(req, res){
 	var ckey = 'check:' + id;
 	client.get(ckey, function(err, cid){
 		if (!cid) {
-		rest.get('http://localhost:3000/check/' + id).on('complete', function(data) {
+		rest.get('http://localhost:3001/check/' + id).on('complete', function(data) {
 	      if (data.error) {			
 			client.set(ckey, JSON.stringify(data));
 			client.expire(ckey, day);      
