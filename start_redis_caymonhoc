@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/tuyendv/Caymonhoc
+cd /home/su207/caymonhoc-ubuntu
 
 redis-server redis6382.conf 
-##& echo $(lsof -ti:6382) >>/home/tuyendv/Auto_start/pid/start_redis_caymonhoc.pid
+##& echo $(lsof -ti:6382) >>/home/su207/Auto_start/pid/start_redis_caymonhoc.pid
