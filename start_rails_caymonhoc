@@ -4,5 +4,5 @@
 
 cd /home/su207/caymonhoc-ubuntu
 
-RACK_ENV=production bundle exec puma config.ru -b tcp://0.0.0.0:3000 -t 4:32 
+RACK_ENV=production bundle exec puma config.ru -b tcp://0.0.0.0:3001 -t 4:32 
 ##& echo $(lsof -ti:3010) >>/home/su207/Auto_start/pid/start_rails_caymonhoc.pid
